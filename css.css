@@ -1,0 +1,123 @@
+ul li a{
+    color: black !important;
+}
+.brand-logo{
+    padding-left: 6px !important;
+}
+.material-icons{
+    color: black !important;
+}
+#mobile-navbar a{
+    color: white !important; 
+}
+.ct-bg{
+    width: 120% !important;
+    transform: rotate(-45deg);
+}
+.serv{
+    margin-top: -80px !important;
+    width: 100%;
+    z-index: 2 !important;
+    position: relative;
+   
+}
+.cliente{
+    width: 100%;
+}
+.clienteslanted{
+    background-color: #005495;
+    min-height: 300px;
+    padding: 30px;
+    transform: skewY(-4deg);
+}
+.servslanted{
+    background-color: #005495;
+    min-height: 400px;
+    padding: 30px;
+    transform: skewY(-4deg);
+    
+    
+}
+.servcontent{
+    transform: skewY(4deg);
+}
+.clientecontent{
+    transform: skewY(4deg);
+}
+.servslanted1, .servslanted2{
+    transform: skewY(-4deg);
+}
+.servslanted2{
+    background-color: #005495;
+}
+.slider{
+    position: relative;
+    z-index: 1 !important;
+}
+h2{
+    font-size: 340%;
+}
+h3, h2, p{
+    color: white;
+}
+.counting-sec{
+    padding: 40px 0;
+    width: 100%;
+    
+}
+.inner-width{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.col{
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    color: #005495;
+}
+.counter{
+    padding-right: 80px !important;
+    padding-left: 80px !important;
+}
+.col i{
+    font-size: 60px;
+}
+.num{
+    font-size: 50px;
+    margin: 10px;
+}
+
+.logocliente{
+    max-width: 200px;
+    padding: 10px 20px;
+    opacity: 0.3;
+}
+.logocliente:hover{
+    opacity: 1;
+}
+li{
+    display: inline;
+}
+footer p{
+    color: black;
+    text-align: left;
+}
+.mapa{
+    padding-top: 65px;
+}
+@media screen and (max-width: 900px){
+    .logocliente{
+        opacity: 1;
+    }
+}
+@media screen and (min-width: 1220px){
+    .serv{
+        margin-top: -110px !important;
+    }
+}
+@media screen and (min-width: 2100px){
+    .serv{
+        margin-top: -125px !important;
+    }
+}
