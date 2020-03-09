@@ -38,12 +38,7 @@ ul li a{
     
     
 }
-.servcontent{
-    transform: skewY(4deg);
-}
-.clientecontent{
-    transform: skewY(4deg);
-}
+
 .servslanted1, .servslanted2{
     transform: skewY(-4deg);
 }
@@ -87,6 +82,15 @@ h3, h2, p{
     font-size: 50px;
     margin: 10px;
 }
+.anime{
+    opacity: 0;
+    left: -200px;
+    transition: .4s;
+}
+.anime-start{
+    opacity: 1;
+    left: 0;
+}
 
 .logocliente{
     max-width: 200px;
@@ -98,6 +102,12 @@ h3, h2, p{
 }
 li{
     display: inline;
+}
+.servcontent{
+    transform: skewY(4deg) !important;
+}
+.clientecontent{
+    transform: skewY(4deg) !important;
 }
 footer p{
     color: black;
