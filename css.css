@@ -38,7 +38,6 @@ ul li a{
     
     
 }
-
 .servslanted1, .servslanted2{
     transform: skewY(-4deg);
 }
@@ -46,8 +45,18 @@ ul li a{
     background-color: #005495;
 }
 .slider{
-    position: relative;
+    /*position: relative;*/
     z-index: 1 !important;
+    height: 600px !important;
+}
+.slides{
+    height: 600px !important;
+}
+.slides img{
+    position: relative;
+}
+.contato p{
+    font-weight: 500;
 }
 h2{
     font-size: 340%;
@@ -91,7 +100,6 @@ h3, h2, p{
     opacity: 1;
     left: 0;
 }
-
 .logocliente{
     max-width: 200px;
     padding: 10px 20px;
@@ -103,11 +111,19 @@ h3, h2, p{
 li{
     display: inline;
 }
+footer .material-icons{
+    font-size: 170%;
+    padding-right: 3px;
+}
 .servcontent{
     transform: skewY(4deg) !important;
 }
 .clientecontent{
     transform: skewY(4deg) !important;
+}
+.clientes{
+    background-color: #c2ddf170 !important;
+    border-radius: 11px;
 }
 footer p{
     color: black;
@@ -115,6 +131,9 @@ footer p{
 }
 .mapa{
     padding-top: 65px;
+}
+.redes{
+    width: 45px;
 }
 @media screen and (max-width: 900px){
     .logocliente{
